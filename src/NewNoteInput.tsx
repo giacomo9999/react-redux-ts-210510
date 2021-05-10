@@ -1,4 +1,4 @@
-import React, { ChangeEvent, ReactHTMLElement } from "react";
+import React, { ChangeEvent } from "react";
 
 export const NewNoteInput: React.FC<NewNoteInputProps> = ({ addNote }) => {
   const [note, setNote] = React.useState("");
